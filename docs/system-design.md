@@ -55,3 +55,55 @@ Size: Tracks number of orders in the queue list
 - data: Stores the order details (e.g., order ID, pizza type, delivery address).
 - next pointer: Points to the next node in the queue.
 
+---
+
+I will use a singly linked list (SLL) with the queue data structure to illustrate how it works, here is an example using draw.io:
+
+### The current Queue Order List
+
+<img width="824" height="511" alt="image" src="https://github.com/user-attachments/assets/266a53d7-b71b-4cda-95c1-73a9bd5ed6f8" />
+
+1- Enqueue Operation (Adding a New Order):
+
+¤	Customer Eren Smith places order #101.
+¤	The order becomes the first element if queue is empty.
+¤	If queue not empty, it's linked to the current rear.
+¤	Rear pointer is updated to the new order.
+
+<img width="778" height="406" alt="image" src="https://github.com/user-attachments/assets/d4b61128-5942-4ed7-96e4-3b9bd14cb3ee" />
+
+2- Dequeue Operation (Processing an Order): 
+
+¤	Order #99 is removed from the front.
+¤	Front pointer moves to the next order (#100).
+¤	The dequeued order is returned for processing.
+
+<img width="725" height="286" alt="image" src="https://github.com/user-attachments/assets/085f9325-bfcf-4347-886f-a8a87158d951" />
+
+3- Enqueue Operation (Adding a New Order):
+
+¤	Customer Mike Wilson places order #102.
+¤	The order becomes the first element if queue is empty.
+¤	If queue not empty, it's linked to the current rear.
+¤	Rear pointer is updated to the new order.
+
+<img width="776" height="358" alt="image" src="https://github.com/user-attachments/assets/85033bda-90a1-4f25-b1b8-60ce9092c9dc" />
+
+4- Peek Operation (Checking Next Order): 
+
+¤	View the front order without removing it.
+¤	Allows kitchen staff to prepare for upcoming orders.
+
+<img width="765" height="301" alt="image" src="https://github.com/user-attachments/assets/4480d30e-fb90-4ef6-a3fb-b67f585e4147" />
+
+5- Remove Operation (Cancel Order):
+
+¤	Locate the node with the specific order ID, let’s choose order#101.
+¤	Adjust pointers to remove the node from the queue.
+
+<img width="940" height="397" alt="image" src="https://github.com/user-attachments/assets/f8133d90-7f69-47a4-87af-db601f5db09c" />
+
+¤	Connecting nodes, to maintain logical order.
+
+<img width="568" height="297" alt="image" src="https://github.com/user-attachments/assets/173eef44-28d4-459f-8170-7b49f9cdfd50" />
+
