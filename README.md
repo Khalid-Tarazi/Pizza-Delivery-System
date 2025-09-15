@@ -32,4 +32,27 @@ The system should support:
 - **Order Placement** → Add to queue.  
 - **Order Cancellation** → Pop from stack or remove from active list.  
 - **Delivery Control** → Dequeue for delivery in correct order.  
-- **Efficiency** → Minimized lookup and retrieval times.  
+- **Efficiency** → Minimized lookup and retrieval times.
+
+---
+
+## 📂 Repository Structure
+
+- **README.md** → Project overview and documentation  
+
+- **/docs** → Project documentation  
+  - `requirements.md` → System requirements  
+  - `algorithms-explained.md` → Explanation of data structures & algorithms  
+  - `system-design.md` → Design approach  
+
+- **/src** → Source code  
+  - `Order.java` → Pizza order class  
+  - `PizzaDeliverySystem.java` → Core system logic  
+  - `Main.java` → Program entry point  
+
+- **/tests** → Test files  
+  - `OrderTest.java` → Unit tests for Order  
+  - `PizzaDeliverySystemTest.java` → System tests  
+
+- **/diagrams** → Visuals & diagrams  
+  - `uml-diagram.png` → UML class diagram
