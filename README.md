@@ -41,11 +41,11 @@ The system should support:
 - **README.md** → Project overview and documentation  
 
 - **/docs** → Project documentation  
-  - `requirements.md` → System requirements  
-  - `algorithms-explained.md` → Explanation of data structures & algorithms  
+  - `requirements.md` → Summary of requirements  
+  - `code-demonstration.md` → Explanation of the used data structures & algorithms  
   - `system-design.md` → Design approach  
 
-- **/src** → Source code  
+- **/src** → Contains the source code  
 
 
 - **/diagrams** → Visuals & diagrams  
