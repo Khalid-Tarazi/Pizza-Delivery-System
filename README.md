@@ -55,4 +55,4 @@ The system should support:
   - `PizzaDeliverySystemTest.java` → System tests  
 
 - **/diagrams** → Visuals & diagrams  
-  - `uml-diagram.png` → UML class diagram
+  - `class diagram 1` → UML class diagram
