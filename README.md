@@ -26,7 +26,7 @@ The system should support:
 - **Queue** → To manage pizza orders in a FIFO manner.  
 - **Stack** → For handling canceled orders (e.g., storing last canceled order).  
 - **Linked List / ArrayList** → To maintain active customer orders.  
-- **HashMap** → To quickly lookup orders by order ID.  
+
 
 ### 🔹 Algorithms
 - **Order Placement** → Add to queue.  
@@ -50,4 +50,6 @@ The system should support:
 
 - **/diagrams** → Visuals & diagrams  
   - `class diagram 1`
-  - `class diagram 2(suggested)` 
+  - `class diagram 2(suggested)`
+  - `Sequence Diagram`
+  - `State Diagram`
