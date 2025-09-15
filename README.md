@@ -46,13 +46,8 @@ The system should support:
   - `system-design.md` → Design approach  
 
 - **/src** → Source code  
-  - `Order.java` → Pizza order class  
-  - `PizzaDeliverySystem.java` → Core system logic  
-  - `Main.java` → Program entry point  
 
-- **/tests** → Test files  
-  - `OrderTest.java` → Unit tests for Order  
-  - `PizzaDeliverySystemTest.java` → System tests  
 
 - **/diagrams** → Visuals & diagrams  
-  - `class diagram 1` → UML class diagram
+  - `class diagram 1`
+  - `class diagram 2(suggested)` 
