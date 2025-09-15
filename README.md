@@ -44,6 +44,21 @@ Menu-driven Interface: Switch-case structure with user input handling
 
 ---
 
+## 🛠️ Tech Stack
+
+**Development:**
+- **Java** - Core programming language
+- **IntelliJ IDEA** - Primary IDE for development
+- **Git bash** - Version control system
+
+
+**Design & Documentation:**
+- **Draw.io** - System architecture and flowchart design
+- **Mermaid** - Diagram generation in documentation
+- **Markdown** - Project documentation
+
+---
+
 ## 📂 Repository Structure
 
 - **README.md** → Project overview and documentation  
@@ -55,9 +70,14 @@ Menu-driven Interface: Switch-case structure with user input handling
 
 - **/src** → Contains the source code  
 
-
 - **/diagrams** → Visuals & diagrams  
   - `class diagram 1`
   - `class diagram 2(suggested)`
   - `Sequence Diagram`
   - `State Diagram`
+
+### Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/Khalid-Tarazi/Pizza-Delivery-System.git
