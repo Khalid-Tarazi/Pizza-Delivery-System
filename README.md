@@ -15,24 +15,32 @@ The system should support:
 ## 🎯 Objectives
 - Apply **data structures** (queues, stacks, linked lists, etc.) to manage orders and deliveries.  
 - Implement **algorithms** for processing orders efficiently.  
-- Demonstrate **problem-solving skills** in real-world scenarios.  
-- Practice **clean coding** and **modular design**.  
+- To demonstrate **problem-solving skills** in real-world scenarios.  
+- To Practice **clean coding** and **modular design**.  
 
 ---
 
 ## 🛠️ Implementation Details
 
-### 🔹 Data Structures Used
-- **Queue** → To manage pizza orders in a FIFO manner.  
-- **Stack** → For handling canceled orders (e.g., storing last canceled order).  
-- **Linked List / ArrayList** → To maintain active customer orders.  
+### 🔹 Data Structures/Algorithms Used
+1. Primary Data Structure: Queue (FIFO - First In, First Out)
+
+Implementation: Custom linked list implementation
+
+Purpose: To manage pizza orders in the order they are received (first-come, first-served)
 
 
-### 🔹 Algorithms
-- **Order Placement** → Add to queue.  
-- **Order Cancellation** → Pop from stack or remove from active list.  
-- **Delivery Control** → Dequeue for delivery in correct order.  
-- **Efficiency** → Minimized lookup and retrieval times.
+2. Specific Queue Operations & Algorithms:
+
+<img width="480" height="371" alt="image" src="https://github.com/user-attachments/assets/c3e75ed8-4739-4594-8ced-1759c9527bc1" />
+
+3. Additional Algorithms/Techniques:
+
+Exception Handling: Comprehensive try-catch blocks throughout the codebase
+
+Input Validation: Checks for empty strings, negative order IDs, and duplicate order IDs
+
+Menu-driven Interface: Switch-case structure with user input handling
 
 ---
 
